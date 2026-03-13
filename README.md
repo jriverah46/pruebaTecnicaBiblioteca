@@ -4,7 +4,7 @@ git clone https://github.com/jriverah46/pruebaTecnicaBiblioteca.git
 <H1>configuracion base de datos</H1>
 src/main/resources/application.properties
 <li>
-<ul>spring.datasource.url=jdbc:postgresql://localhost:5432/library_db</ul>
+<ul>spring.datasource.url=jdbc:postgresql://localhost:5432/library</ul>
 <ul>spring.datasource.username=postgres</ul>
 <ul>spring.datasource.password=tu_password</ul>
 <ul>spring.jpa.hibernate.ddl-auto=update</ul>
