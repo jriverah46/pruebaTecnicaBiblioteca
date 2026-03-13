@@ -15,13 +15,13 @@ spring.jpa.show-sql=true
   <ul>POST /api/auth/register — Registro de usuario (rol STUDENT por defecto)</ul>
   <ul>POST /api/auth/login — Login que retorna un JWT válido</ul>
   <ul>GET /api/books — Listar todos los libros con disponibilidad</ul>
- <ul> GET /api/books/{id} — Detalle de un libro
-<ul>POST /api/books — Crear libro [solo ADMIN]
-<ul>PUT /api/books/{id} — Actualizar libro [solo ADMIN]
- <ul>DELETE /api/books/{id} — Eliminar libro [solo ADMIN]
- <ul>POST /api/loans — Registrar nuevo préstamo (valida disponibilidad)
-<ul>GET /api/loans/my — Ver mis préstamos activos [STUDENT/ADMIN]
-<ul>GET /api/loans — Ver todos los préstamos [solo ADMIN]
-<ul>PUT /api/loans/{id}/return — Registrar devolución [solo ADMIN]
+ <ul> GET /api/books/{id} — Detalle de un libro</ul>
+<ul>POST /api/books — Crear libro [solo ADMIN]</ul>
+<ul>PUT /api/books/{id} — Actualizar libro [solo ADMIN]</ul>
+ <ul>DELETE /api/books/{id} — Eliminar libro [solo ADMIN]</ul>
+ <ul>POST /api/loans — Registrar nuevo préstamo (valida disponibilidad)</ul>
+<ul>GET /api/loans/my — Ver mis préstamos activos [STUDENT/ADMIN]</ul>
+<ul>GET /api/loans — Ver todos los préstamos [solo ADMIN]</ul>
+<ul>PUT /api/loans/{id}/return — Registrar devolución [solo ADMIN]</ul>
    
 </li>
